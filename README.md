@@ -1,5 +1,5 @@
 # Py-CY7C6521x
-playing with ucdev in macOS for custom CY7C65215 board
+playing with GPIO of custom CY7C65215 board in macOS 
 
 
 C-Python ffi from
