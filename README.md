@@ -6,7 +6,7 @@ C-Python ffi from
 https://github.com/tai/python-ucdev
 
 
-### dependency
+### Build driver
 
 ```shell
 brew install libusb
