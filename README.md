@@ -8,11 +8,10 @@ https://github.com/tai/python-ucdev
 
 ### dependency
 
-brew install libusb  
-
-
+```shell
+brew install libusb
 cd driver/library
 sudo make
-
+```
 
 
