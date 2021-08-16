@@ -10,10 +10,14 @@ https://github.com/tai/python-ucdev
 
 ### Build driver
 
-```shell
+```sh
 brew install libusb
 cd driver/library
 sudo make
+```
+### Pyhton dependencies  
+```sh
+pip3 install cffi
 ```
 
 
