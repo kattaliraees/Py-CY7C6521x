@@ -15,7 +15,7 @@ brew install libusb
 cd driver/library
 sudo make
 ```
-### Pyhton dependencies  
+### Python dependencies  
 ```sh
 pip3 install cffi
 ```
