@@ -8,7 +8,10 @@ https://github.com/tai/python-ucdev
 
 ### dependency
 
+```shell
 brew install libusb
-https://www.cypress.com/documentation/software-and-drivers/usb-serial-software-development-kit
+cd driver/library
+sudo make
+```
 
 
