@@ -11,6 +11,8 @@ from header import src as cdef_src
 import logging
 log = logging.getLogger(__name__)
 
+
+
 class CyUSBSerial(object):
     __self = None
 
@@ -63,7 +65,7 @@ class CyUSBSerial(object):
                 found = (vid, pid) in ((iv, ip), (iv, None), (None, ip))
 
             if found:
-                yield CyUSBSerialDevice(self, devno, 0)
+                return CyUSBSerialDevice(self, devno, 0)
 
 ######################################################################
 
